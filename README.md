@@ -37,8 +37,7 @@ To start using the MTG Deck Builder Tool, follow these steps:
    To run the application, execute the following command in the project directory:
    ```bash
    python deck_builder.py
-
-
+   
 ## Usage
 Describe your request for a Magic: The Gathering deck at the prompt. The application will generate a deck recommendation based on your input and fetch detailed information about each card.
 
