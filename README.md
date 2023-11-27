@@ -7,7 +7,6 @@
 - **Custom Deck Recommendations**: Generate tailored deck recommendations based on user input.
 - **Integration with OpenAI API**: Utilizes advanced AI algorithms for innovative and niche deck ideas.
 - **Fetch Detailed Card Information**: Retrieves detailed information about each card in the suggested deck using `mtgsdk`.
-- **Interactive User Experience**: Simple and interactive command-line interface for easy use.
 
 ## Prerequisites
 Before you begin, ensure you have the following installed:
