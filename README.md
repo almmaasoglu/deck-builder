@@ -39,14 +39,11 @@ To start using the MTG Deck Builder Tool, follow these steps:
    python deck_builder.py
 
 
-**Usage**
-
+## Usage
 Describe your request for a Magic: The Gathering deck at the prompt. The application will generate a deck recommendation based on your input and fetch detailed information about each card.
 
-**Contributing**
-
+## Contributing
 Contributions to the MTG Deck Builder Tool are welcome! 
 
-**License**
-
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
