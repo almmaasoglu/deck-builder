@@ -3,7 +3,6 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 from mtgsdk import Card
-from meta_scraper import scrape_meta_decks
 
 # Load environment variables from .env file
 load_dotenv()
@@ -67,27 +66,6 @@ def fetch_cards_from_mtg_api(card_names):
             }
             detailed_cards.append(card_details)
     return detailed_cards
-
-def main():
-    meta_decks = scrape_meta_decks()
-    user_input = input("Describe your request for a Magic: The Gathering deck: ")
-    deck_recommendation = get_deck_recommendation(user_input, meta_decks)
-    
-    if deck_recommendation:
-        print("\nDeck Recommendation:")
-        print(deck_recommendation)
-
-        card_names = extract_card_names(deck_recommendation)
-        detailed_cards = fetch_cards_from_mtg_api(card_names)
-
-        if detailed_cards:
-            print("\nDetailed Card Information:")
-            for card in detailed_cards:
-                print(f"Name: {card['name']}, Mana Cost: {card['mana_cost']}, Type: {card['type']}, Rarity: {card['rarity']}, Text: {card['text']}")
-        else:
-            print("No detailed card information found.")
-    else:
-        print("Unable to generate deck recommendation.")
 
 if __name__ == "__main__":
     main()
