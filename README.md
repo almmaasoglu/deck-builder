@@ -1,7 +1,7 @@
 # MTG Deck Builder Tool
 
 ## Overview
-**Welcome to the MTG Deck Builder Tool** - a unique application for Magic: The Gathering enthusiasts! Leveraging the power of OpenAI's API, this tool is designed to suggest creative and niche decks based on player input. This Python-based application integrates with the `mtgsdk` library to fetch detailed card information, offering a comprehensive deck-building experience.
+**MTG Deck Builder Tool** - a unique application for Magic: The Gathering enthusiasts! Leveraging the power of OpenAI's API, this tool is designed to suggest creative and niche decks based on player input. This Python-based application integrates with the `mtgsdk` library to fetch detailed card information, offering a comprehensive deck-building experience.
 
 ## Features
 - **Custom Deck Recommendations**: Generate tailored deck recommendations based on user input.
